@@ -1,78 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LEWAN | معرض الأعمال</title>
+  <title>LEWAN | رسومات مخصصة</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
       background-color: #111;
-      color: #fff;
+      color: #f0f0f0;
+      text-align: center;
     }
     header {
-      background-color: #1f1f1f;
-      padding: 20px;
-      text-align: center;
+      background-color: #1e1e1e;
+      padding: 20px 10px;
     }
     header h1 {
       margin: 0;
-      font-size: 2em;
-      color: #00ffd5;
+      font-size: 2rem;
+      color: #ffcc70;
+    }
+    p {
+      max-width: 600px;
+      margin: 10px auto;
+      line-height: 1.6;
     }
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 40px;
+      gap: 15px;
+      padding: 20px;
     }
     .gallery img {
       width: 100%;
-      height: auto;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      border-radius: 10px;
+      border: 2px solid #333;
       transition: transform 0.3s ease;
     }
     .gallery img:hover {
       transform: scale(1.05);
     }
-    footer {
-      background-color: #1f1f1f;
+    .contact {
+      background-color: #1e1e1e;
       padding: 20px;
-      text-align: center;
-      font-size: 0.9em;
+      margin-top: 40px;
+    }
+    .contact a {
+      color: #ffcc70;
+      display: inline-block;
+      margin: 5px 10px;
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      font-size: 0.9rem;
       color: #aaa;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>معرض رسومات LEWAN</h1>
+    <h1>LEWAN | رسومات مخصصة</h1>
+    <p>اطلب رسمة مخصصة بأسلوب رقمي احترافي! التسليم خلال 2 إلى 3 أيام حسب الطلب.</p>
   </header>
 
   <section class="gallery">
-    <img src="image1.png" alt="art1" />
-    <img src="image2.png" alt="art2" />
-    <img src="image3.png" alt="art3" />
-    <img src="image4.png" alt="art4" />
-    <img src="image5.png" alt="art5" />
-    <img src="image6.png" alt="art6" />
-    <img src="image7.png" alt="art7" />
-    <img src="image8.png" alt="art8" />
-    <img src="image9.png" alt="art9" />
-    <img src="image10.png" alt="art10" />
-    <img src="image11.png" alt="art11" />
-    <img src="image12.png" alt="art12" />
-    <img src="image13.png" alt="art13" />
-    <img src="image14.png" alt="art14" />
-    <img src="image15.png" alt="art15" />
-    <img src="image16.jpg" alt="art16" />
-    <img src="image17.jpg" alt="art17" />
+    <img src="image1.png" alt="رسم 1" />
+    <img src="image2.png" alt="رسم 2" />
+    <img src="image3.png" alt="رسم 3" />
+    <img src="image4.png" alt="رسم 4" />
+    <img src="image5.png" alt="رسم 5" />
+    <img src="image6.png" alt="رسم 6" />
+    <img src="image7.png" alt="رسم 7" />
+    <img src="image8.png" alt="رسم 8" />
+    <img src="image9.png" alt="رسم 9" />
+    <img src="image10.png" alt="رسم 10" />
+    <img src="image11.png" alt="رسم 11" />
+    <img src="image12.png" alt="رسم 12" />
+    <img src="image13.png" alt="رسم 13" />
+    <img src="image14.png" alt="رسم 14" />
+    <img src="image15.png" alt="رسم 15" />
+    <img src="image16.jpg" alt="رسم 16" />
+    <img src="image17.jpg" alt="رسم 17" />
   </section>
+
+  <div class="contact">
+    <p>لطلب رسمة أو الاستفسار:</p>
+    <a href="https://wa.me/201014802809" target="_blank">واتساب</a>
+    <a href="mailto:chimonodaana0@gmail.com">إيميل</a>
+    <a href="https://discord.com/users/dapllyou" target="_blank">ديسكورد</a>
+  </div>
 
   <footer>
     <p>© 2025 LEWAN. جميع الحقوق محفوظة.</p>
   </footer>
+
 </body>
 </html>
